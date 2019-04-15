@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LahingTank.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3DF8823C-54FE-4BAA-BFE4-741B208EBA9A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LahingTank.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LahingTankEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4A3F5DDD-A692-4B1B-99E0-A0ADB58DD88C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LahingTank">
+      <UniqueIdentifier>{2A931C6F-2F55-4A76-92B2-8361EF1619F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LahingTank\LahingTank.Build.cs">
+      <Filter>Source\LahingTank</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LahingTank\LahingTank.cpp">
+      <Filter>Source\LahingTank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LahingTank\LahingTank.h">
+      <Filter>Source\LahingTank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LahingTank\LahingTankGameModeBase.cpp">
+      <Filter>Source\LahingTank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LahingTank\LahingTankGameModeBase.h">
+      <Filter>Source\LahingTank</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
