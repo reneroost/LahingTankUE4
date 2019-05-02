@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LahingTank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3DF8823C-54FE-4BAA-BFE4-741B208EBA9A}</UniqueIdentifier>
+      <UniqueIdentifier>{E2451E04-E93D-43C9-8805-83F2E891F300}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LahingTank.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\LahingTankEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{4A3F5DDD-A692-4B1B-99E0-A0ADB58DD88C}</UniqueIdentifier>
+      <UniqueIdentifier>{D4BB3D5D-0340-4B27-BB4F-F41BAB0BD517}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +24,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\LahingTank">
-      <UniqueIdentifier>{2A931C6F-2F55-4A76-92B2-8361EF1619F8}</UniqueIdentifier>
+      <UniqueIdentifier>{ADB6D6C8-957C-4221-BB10-541642A49D46}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LahingTank\LahingTank.Build.cs">
       <Filter>Source\LahingTank</Filter>
@@ -40,6 +44,24 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\LahingTank\LahingTankGameModeBase.h">
       <Filter>Source\LahingTank</Filter>
+    </ClInclude>
+    <Filter Include="Source\LahingTank\Private">
+      <UniqueIdentifier>{E6335979-5446-4C02-A990-046C4F6B3F42}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LahingTank\Private\Tank.cpp">
+      <Filter>Source\LahingTank\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LahingTank\Private\TankMangijaJuhtija.cpp">
+      <Filter>Source\LahingTank\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\LahingTank\Public">
+      <UniqueIdentifier>{F35FB177-2423-4F00-9296-EC969D1665E1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\LahingTank\Public\Tank.h">
+      <Filter>Source\LahingTank\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LahingTank\Public\TankMangijaJuhtija.h">
+      <Filter>Source\LahingTank\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
